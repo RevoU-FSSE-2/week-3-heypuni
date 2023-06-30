@@ -19,4 +19,4 @@ Snatch some of our babies and join our exclusive club by filling out the registr
 ## Disclaimer
 This website was made purely just for fun. If you do happen to be a fan of dogs, cool! Otherwise, join the fun lol.
 
-Here's the [link](https://week3-gabby.netlify.app/) to the website!
+Here's the [link](https://wonderful-bombolone-49aaa4.netlify.app/) to the website!
