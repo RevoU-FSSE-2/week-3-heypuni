@@ -7,6 +7,7 @@ body {
     color: #884A39;
     font-family: 'Roboto' , sans-serif;
     margin: 0;
+    scroll-behavior: smooth;
 }
 
 nav {
@@ -99,10 +100,12 @@ nav > span > img {
 
 .left-grid {
     padding: 0px 5px 20px 0px;
+    transition-duration: 1s;
 }
 
 .left-grid:hover {
     filter: grayscale(80%);
+    cursor: pointer;
 }
 
 .right-grid {
@@ -117,14 +120,20 @@ nav > span > img {
 
 #img-one:hover {
     filter: grayscale(80%);
+    cursor: pointer;
+    transition-duration: 1s;
 }
 
 #img-two:hover {
     filter: grayscale(80%);
+    cursor: pointer;
+    transition-duration: 1s;
 }
 
 #img-three:hover {
     filter: grayscale(80%);
+    cursor: pointer;
+    transition-duration: 1s;
 }
 
 .right-grid > img {
@@ -161,7 +170,6 @@ main > article {
 #types {
     display: flex;
     flex-direction: row;
-    padding-bottom: 5vh;
 }
 
 .dog-types {
@@ -174,6 +182,9 @@ main > article {
     padding: 10px;
     margin: 10px 10px 10px 0;
     border-radius: 20px;
+    animation: animate-pop;
+    animation-duration: 1.5s;
+    animation-timing-function: cubic-bezier(.26, .53, .74, 1.48);
 }
 
 @keyframes animate-pop {
@@ -229,12 +240,13 @@ main > article {
 }
 
 #form-section {
-    background-color: #F9E0BB;
-    color:#884A39;
+    background-color: #C38154;
+    color: #F9E0BB;
     padding: 1rem;
     margin-top: 1rem;
     display: flex;
     justify-content: center;
+    font-family: 'Roboto', sans-serif;
 }
 
 #textarea {
@@ -288,8 +300,6 @@ input[type="color"] {
 #intro h1 {
     font-weight: bold;
     margin: 16px;
-    animation-duration: 3s;
-    animation-name: slidein;
     text-shadow: 2px 2px #c38154;
 }
 
