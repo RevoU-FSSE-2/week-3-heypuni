@@ -30,7 +30,7 @@ nav {
     display: none;
 }
 
-@media only screen and (max-width: 992px) {
+@media screen and (max-width: 768px) {
     .mobile {
         display: block;
     }
@@ -112,6 +112,7 @@ nav > span > img {
     display: grid;
     gap: 10px;
     padding: 0px 20px 20px 20px;
+    transition-duration: 1s;
 }
 
 #img-one {
@@ -204,11 +205,7 @@ main > article {
     height: 100%;
 }
 
-@media screen and (max-width: 992px) {
-    #types {
-      display: block;
-    }
-  }
+
 
 .dog-types > p {
     font-size: 1.2rem;
@@ -233,11 +230,7 @@ main > article {
     border-color: #F5EFE7;
 }
 
-#video > h2 {
-    margin: 3vh 0px;
-    font-size: 2rem;
-    padding: 6vh 0 2vh 0;
-}
+
 
 #form-section {
     background-color: #C38154;
@@ -342,7 +335,7 @@ input[type="color"] {
     border-radius: 20px;
 }
 
-@media only screen and (max-width: 992px) {
+@media screen and (max-width: 768px) {
     .testi-container {
         flex-direction: column;
         margin: 5%;
@@ -350,6 +343,42 @@ input[type="color"] {
     .testi-img-container1 {
         margin: 0;
         margin-bottom: 30px;
+    }
+    #types {
+        display: block;
+      }
+      .grid-section {
+          display: grid;
+          grid-template-columns: 1fr;
+          padding: 3% 5% 3% 5%;
+      }
+      .right-grid {
+          padding: 0;
+      }
+      h2 {
+          font-size: 2rem;
+          padding: 6vh 2vh;
+          margin: 0;
+      }
+      p {
+          font-size: 0.6rem;
+      }
+      h1 {
+          font-size: 2rem;
+      }
+      .description {
+          font-size: 1rem;
+      }
+      .video-container {
+          height: 40vh;
+      }
+}
+
+@media screen and (min-width: 768px) {
+    h2 {
+    margin: 3vh 0px;
+    font-size: 2rem;
+    padding: 6vh 0 2vh 0;
     }
 }
 
